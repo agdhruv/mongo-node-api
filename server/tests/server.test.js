@@ -110,3 +110,25 @@ describe('GET /todos/:id', () => {
 			.end(done);
 	});
 });
+
+describe('DELETE /todos/:id', () => {
+	it('should remove a todo', (done) => {
+		var hexId = todos[1]._id.toHexString();
+		
+		request()
+	});
+
+	it('should return 404 if todo not found', (done) => {
+
+	});
+
+	it('should return 404 if ObjectID is invalid', (done) => {
+
+	});
+});
+
+
+
+
+
+
